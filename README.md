@@ -31,13 +31,15 @@ The aim is to construct a consolidated and interactive PowerBI report that will 
 6. As it's a dimension table, the **Country-Code** table must only include unique and non-blank values
 ### Steps to use DAX in the project:
 1. Add a **Rating color** column in an appropriate table with the data rows in the format given below
+<pre>
 **Aggregate rating**    **Rating color**
   Above 4.5               Dark Green
   4 to 4.4                Green
-2. Create the following measures in the appropriate tables 
-   - Restaurant count
-   - Average cost
-   - Average rating 
-   - Cuisine count
+</pre>
+2. Create the following measures in the appropriate tables <br>
+   a) Restaurant count <br>
+   b) Average cost <br>
+   c) Average rating <br>
+   d) Cuisine count <br>
 3. Create a new column in the **Country Code** table and name it **“Continent”** and create the values using the below-mentioned convention
 >**Note:** The mapping is continent - country, for example ''Africa – South Africa'' 
